@@ -1,0 +1,10 @@
+INFO  08:15:24 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:15:32 MemberControllerLog[insertMember:202] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+
+INFO  13:22:48 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  13:23:15 MemberControllerLog[insertMember:203] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+

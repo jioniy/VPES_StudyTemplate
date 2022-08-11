@@ -1,0 +1,245 @@
+.CodeMirror {
+	font-family: 'Courier New';
+	font-size: 12px;
+	height: 676px;
+	border: solid 2px #dbdbdb;
+}
+
+.CodeMirror pre {
+	border-width: inherit;
+	border: 0px !important;
+	background-color: #ffffff
+}
+
+.CodeMirror-linewidget {
+	width: 100%;
+}
+
+.CodeMirror-fullscreen {
+	z-index: 350;
+}
+
+.lineSuppression .CodeMirror-linenumber { background-color: red!important; } 
+
+.Covered {
+	background-color: #80ff80!important;
+	display: inline !important;
+}
+
+.Uncovered {
+	background-color: red!important;
+	display: inline !important;
+}
+
+
+.PatialCovered {
+	background-color: yellow!important;
+	display: inline !important;
+}
+
+.NoStatement {
+	background-color: #e8e8e8!important;
+	display: inline !important;
+}
+
+.Unreachable {
+	background-color: darkgray !important;
+	display: inline !important;
+}
+
+.decisionCover {
+	width: 16px !important;
+}
+
+.changeLine {
+	width: 16px !important;
+}
+
+.violation {
+	width: 16px !important;
+}
+
+.violationLink {
+	text-decoration: none !important;
+	color: rgb(33, 189, 189) !important;
+	font-weight: 700 !important;
+	font-size: 14px !important;
+	margin-left: 10px !important;
+}
+
+.violationCritical {
+	background: rgba(204, 0, 0, 0.40) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.violationMajor {
+	background: rgba(255, 64, 0, 0.40) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.violationMinor {
+	background: rgba(255, 153, 0, 0.40) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.violationTrivial {
+	background: rgba(255, 255, 0, 0.40) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.violationOther {
+	background: rgba(192, 192, 192, 0.40) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defect {
+	width: 16px !important;
+}
+
+.defectLink {
+	text-decoration: none !important;
+	color: rgb(3, 150, 150) !important;
+	font-weight: 700 !important;
+	font-size: 14px !important;
+	margin-left: 10px !important;
+}
+
+.defectCritical {
+	background: rgba(204, 0, 0, 0.20) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defectMajor {
+	background: rgba(255, 64, 0, 0.20) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defectMinor {
+	background: rgba(255, 153, 0, 0.20) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defectTrivial {
+	background: rgba(255, 255, 0, 0.20) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defectOther {
+	background: rgba(192, 192, 192, 0.20) !important;
+	color: #323232 !important;
+	padding: 2px 5px 3px !important;
+	border: dotted 1px;
+	margin: 1px;
+}
+
+.defectHighlightCritical {
+	background: rgba(204, 0, 0, 0.60) !important;
+	color: #323232 !important;
+}
+
+.defectHighlightMajor {
+	background: rgba(255, 64, 0, 0.60) !important;
+	color: #323232 !important;
+}
+
+.defectHighlightMinor {
+	background: rgba(255, 153, 0, 0.60) !important;
+	color: #323232 !important;
+}
+
+.defectHighlightTrivial {
+	background: rgba(255, 255, 0, 0.60) !important;
+	color: #323232 !important;
+}
+
+.defectHighlightOther {
+	background: rgba(192, 192, 192, 0.60) !important;
+	color: #323232 !important;
+}
+
+.test {
+	background-color: green !important;
+	display: inline !important;
+}
+
+.bt_wrap {
+	width: 100%;
+}
+
+.bt_wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+	*zoom: 1
+}
+
+.bt {
+	float: left;
+	margin-right: 3px;
+	display: block;
+	width: 33px;
+	height: 16px;
+	border: 1px solid #d7d7d7;
+	text-align: center;
+	padding-top: 4px;
+	text-decoration: none;
+	background-repeat: repeat-x;
+	background: #fcfcfc;
+	color: #232323;
+	font-size: 12px;
+}
+
+.bthover:hover {
+	display: block;
+	width: 33px;
+	height: 16px;
+	border: 1px solid #999999;
+	text-align: center;
+	padding-top: 4px;
+	text-decoration: none;
+	background: #e5e5e7;
+	color: #101010;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.is-hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.fullscreen_cancel {
+	position: fixed;
+	right: 2%;
+	top: 0px;
+	text-align: right;
+	z-index: 400;
+	cursor: pointer;
+}

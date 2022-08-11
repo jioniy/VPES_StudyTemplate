@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+
+/* content ************************************************************************/
+.fl {float: left !important }
+.fr {float: right !important }
+.mt20{margin-top:25px;}
+.dispyInb{width:auto !important ;display:inline-block !important;}
+.headImg01{background: url('../../image/cont_img01.jpg')no-repeat;}
+.headImg02{background: url('../../image/cont_img02.jpg')no-repeat;}
+.headImg03{background: url('../../image/cont_img03.jpg')no-repeat;}
+.headImg04{background: url('../../image/cont_img04.jpg')no-repeat;}
+
+/* Button ************************************************************************/
+.btn:focus {color:#fff!important;}
+.btn_Deflut{width:86px;padding:8px 0;font-size:12px;border:1px solid #989797;color:#333;background-color:#fff;box-sizing:border-box;}
+.btnOrange{border:1px solid #f87b2f;color:#fff;background-color:#f87b2f !important;}
+.btn_blue{border:1px solid #00498f;color:#fff;background-color:#00498f !important;}
+.btn_Deflut:hover{color:#fff !important;border:1px solid #f87b2f;background-color:#f87b2f !important;}
+.btnTop{width:31px;height:51px;position:absolute;bottom:40px;right:40px;font-size:0;}
+.btnTop:before{content:"";width:31px;height:51px;display:inline-block;background: url('../../image/btn_Top.png')no-repeat;}
+
+/* Icon ************************************************************************/
+.tableInfo ul li:before{content:"";width:19px;height:19px;margin-right:10px;display:inline-block;background:url('../../image/icon_TableInfo_Ing.png')no-repeat;vertical-align:middle;}
+.tableInfo ul li:nth-child(1):before{content:"";background-position:0 0;}
+.tableInfo ul li:nth-child(2):before{content:"";background-position:0 -19px;}
+.tableInfo ul li:nth-child(3):before{content:"";background-position:0 -40px;}
+.tableInfo ul li:nth-child(4):before{content:"";background-position:0 -61px;}
+.tableInfo ul li:nth-child(5):before{content:"";background-position:0 -81px;}
+
+.historyInfo ul li:before{content:"";width:19px;height:19px;margin-right:10px;display:inline-block;background:url('../../image/check.png')no-repeat;vertical-align:middle;}
+.historyInfo ul li:nth-child(1):before{content:"";background-position:0 0;}
+.historyInfo ul li:nth-child(2):before{content:"";background-position:0 -19px;}
+.historyInfo ul li:nth-child(3):before{content:"";background-position:0 -38px;}
+/* TextColor ************************************************************************/
+
+
+/* Paging ************************************************************************/
+.pagingWlong{width: 100%;box-sizing: border-box;}
+.paging{text-align:center;padding:25px 0 12px 0;vertical-align:top;}
+.paging a.direction{width: 30px;height: 30px;display:inline-block;text-indent: -100000px;}
+.paging span a {width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#495f73; font-size:13px;background: #fff;}
+.paging strong,
+.paging span a:hover{width: 30px;height: 30px;padding:0;margin-right:0;display:inline-block;text-align:center;line-height: 29px;color:#f47320;font-size:13px;font-weight:bold;}
+.bt_arrdel2{background: #fff url('../../image/bt_arrdel2.png') no-repeat center;}
+.bt_arrdel{margin-right: 10px;background: #fff url('../../image/bt_arrdel.png') no-repeat center;}
+.bt_arradd{margin-left: 10px;background: #fff url('../../image/bt_arradd.png') no-repeat center;}
+.bt_arradd2{background: #fff url('../../image/bt_arradd2.png') no-repeat center;}
+
+
+/* Datatable paging button *****************************************************************/
+.dataTables_wrapper .dataTables_info {
+    position: absolute;
+}
+
+.dataTables_wrapper .dataTables_filter {
+	padding-bottom:5px;
+}
+.dataTables_wrapper .dataTables_paginate {
+	float: inherit !important;
+	text-align: center !important;
+	padding-top: 0.25em !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+	padding: 0 1em;
+	line-height: 2.0;
+}
+.dataTables_wrapper .dataTables_paginate .paging_button_a {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#495f73; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a:hover{cursor: pointer;width: 30px;height: 30px;padding:0;margin-right:0;display:inline-block;text-align:center;line-height: 29px;color:#f47320;font-size:13px;font-weight:bold;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.current {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#f47320; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.current:hover {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#f47320; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.previous{margin-right: 10px;background: #fff url('../../image/bt_arrdel.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.next{margin-left: 10px;background: #fff url('../../image/bt_arradd.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.first{margin-right: 10px;background: #fff url('../../image/bt_arrdel2.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.last{margin-left: 10px;background: #fff url('../../image/bt_arradd2.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled, 
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled:hover, 
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled:active{
+	cursor: default;
+	color: #666 !important;
+	border: 1px solid transparent;
+	box-shadow: none
+}
+
+/* Popup *************************************************************************/
+.popupWrap{position:fixed;_position:absolute;top:0;left:0;width:100%;height: 100%;z-index: 100;}
+.dim{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);}
+.projactPopup{width:980px;height:800px;position:absolute;top:5%;left:50%;margin-left:-490px;background-color:#fff;z-index: 10;}
+.popupHead{height:45px;padding-left:28px;font-size:18px;line-height:45px;font-weight:600;color:#fff;background-color:#00498f;box-sizing:border-box;}
+.popupContns{padding:20px;box-sizing:border-box;}
+.popupClose{width:48px;height:45px;float:right;text-indent:-10000px;background: url('../../image/popupClose.png')no-repeat;}
+.popupBtn{display:block;text-align:center;}
+
+/* 인풋박스 */
+.borderT_nor{border-top:none !important;}
+.borderL_nor{border-left:none !important;}
+.borderR_nor{border-right:none !important;}
+.borderB_nor{border-bottom:none !important;}
+.input_Defult{height:27px;padding:5px 10px;border:1px solid #c9c9c9;box-sizing:border-box;}
+.input110{width:110px;}
+.input170{width:170px;}
+.input200{width:200px;}
+
+
+.checks {position: relative;}
+.checks input[type="checkbox"] { /* 실제 체크박스는 화면에서 숨김 */ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 } 
+.checks input[type="checkbox"] + label{width:22px;height:22px;overflow:hidden;margin-right:-10px;display: inline-block; position: relative; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+.checks label:before{ /* 가짜 체크박스 */ content: ' '; display: inline-block; width: 22px; /* 체크박스의 너비를 지정 */ height: 22px; /* 체크박스의 높이를 지정 */ line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */ margin: 0 0 0 0; text-align: center; vertical-align: middle; background: url('../../image/checkboxBg.png')no-repeat;} 
+.checks  + label:active:before, .checks input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); } 
+.checks input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '';background: url('../../image/checkboxBg_over.png')no-repeat;}
+
+.checksLst input[type="checkbox"] + label{width:27px;height:18px;margin-top:-2px;}
+.checksLst label:before{content: '';width: 15px;height: 15px;line-height: 14px;background: url('../../image/checkboxBg02.png')no-repeat;}
+.checksLst input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '';background: url('../../image/checkboxBg02_over.png')no-repeat;}
+
+select.lstSelect, select.lstSelect02, select.lstSelect03, select.lstSelect04 {width: auto;padding: 4px 35px 4px 5px;font-size: 13px;color: #333;border: 1px solid #c9c9c9;-webkit-appearance: none;-moz-appearance: none;appearance: none;background: url('../../image/select-arrow01.png') no-repeat 90% 50%; /* 화살표 아이콘 추가 */}
+select.lstSelect::-ms-expand, select.lstSelect02::-ms-expand, select.lstSelect03::-ms-expand, select.lstSelect04::-ms-expand {display: none;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect02{width:488px;padding:10px 35px 10px 35px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow02.png') no-repeat 0 50%;}
+select.lstSelect02 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect02 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect02 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect03{width:290px;padding:5px 35px 5px 5px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow01.png') no-repeat 96% 50%;}
+select.lstSelect03 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect03 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect03 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect04{width:170px;padding:4px 15px 4px 5px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow01.png') no-repeat 96% 50%;}
+select.lstSelect04 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect04 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect04 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+
+/* 테이블 설정 */
+.tableDefault{width:100%;border-top:2px solid #00498f;}
+.tableDefault thead th{padding:10px 10px!important;font-size:12px;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;background-color:#e5ecf4;}
+.tableDefault thead tr th:last-child{border-right:none;}
+.tableDefault tbody td{padding:10px 2px!important;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;font-size:13px;color:#000;box-sizing:border-box;}
+.tableDefault tbody tr td:last-child{border-right:none;}
+
+.tableDefaultBody{width:100%;border-top:2px solid #00498f;border-left:1px solid #d8d8d8;}
+.tableDefaultBody tbody th{padding:10px;font-size:12px;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;background-color:#e5ecf4;}
+.tableDefaultBody tbody tr th:last-child{border-right:none;}
+.tableDefaultBody tbody td{padding:2px;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;font-size:13px;color:#000;box-sizing:border-box;}
+.tableDefaultBody tbody th span{padding-left:3px;display:inline-block;font-weight:600;color:#f87b2f;}
+
+
+a.linkTxt{display:block;font-size:16px;font-weight:600;color:#000;}
+a.linkTxt:hover{color:#f47320;}
+@charset "utf-8";
+
+
+/* content ************************************************************************/
+.fl {float: left !important }
+.fr {float: right !important }
+.mt20{margin-top:25px;}
+.dispyInb{width:auto !important ;display:inline-block !important;}
+.headImg01{background: url('../../image/cont_img01.jpg')no-repeat;}
+.headImg02{background: url('../../image/cont_img02.jpg')no-repeat;}
+.headImg03{background: url('../../image/cont_img03.jpg')no-repeat;}
+.headImg04{background: url('../../image/cont_img04.jpg')no-repeat;}
+
+/* Button ************************************************************************/
+.btn:focus {color:#fff!important;}
+.btn_Deflut{width:86px;padding:8px 0;font-size:12px;border:1px solid #989797;color:#333;background-color:#fff;box-sizing:border-box;}
+.btnOrange{border:1px solid #f87b2f;color:#fff;background-color:#f87b2f !important;}
+.btn_blue{border:1px solid #00498f;color:#fff;background-color:#00498f !important;}
+.btn_Deflut:hover{color:#fff !important;border:1px solid #f87b2f;background-color:#f87b2f !important;}
+.btnTop{width:31px;height:51px;position:absolute;bottom:40px;right:40px;font-size:0;}
+.btnTop:before{content:"";width:31px;height:51px;display:inline-block;background: url('../../image/btn_Top.png')no-repeat;}
+
+/* Icon ************************************************************************/
+.tableInfo ul li:before{content:"";width:19px;height:19px;margin-right:10px;display:inline-block;background:url('../../image/icon_TableInfo_Ing.png')no-repeat;vertical-align:middle;}
+.tableInfo ul li:nth-child(1):before{content:"";background-position:0 0;}
+.tableInfo ul li:nth-child(2):before{content:"";background-position:0 -19px;}
+.tableInfo ul li:nth-child(3):before{content:"";background-position:0 -40px;}
+.tableInfo ul li:nth-child(4):before{content:"";background-position:0 -61px;}
+.tableInfo ul li:nth-child(5):before{content:"";background-position:0 -81px;}
+
+.historyInfo ul li:before{content:"";width:19px;height:19px;margin-right:10px;display:inline-block;background:url('../../image/check.png')no-repeat;vertical-align:middle;}
+.historyInfo ul li:nth-child(1):before{content:"";background-position:0 0;}
+.historyInfo ul li:nth-child(2):before{content:"";background-position:0 -19px;}
+.historyInfo ul li:nth-child(3):before{content:"";background-position:0 -38px;}
+/* TextColor ************************************************************************/
+
+
+/* Paging ************************************************************************/
+.pagingWlong{width: 100%;box-sizing: border-box;}
+.paging{text-align:center;padding:25px 0 12px 0;vertical-align:top;}
+.paging a.direction{width: 30px;height: 30px;display:inline-block;text-indent: -100000px;}
+.paging span a {width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#495f73; font-size:13px;background: #fff;}
+.paging strong,
+.paging span a:hover{width: 30px;height: 30px;padding:0;margin-right:0;display:inline-block;text-align:center;line-height: 29px;color:#f47320;font-size:13px;font-weight:bold;}
+.bt_arrdel2{background: #fff url('../../image/bt_arrdel2.png') no-repeat center;}
+.bt_arrdel{margin-right: 10px;background: #fff url('../../image/bt_arrdel.png') no-repeat center;}
+.bt_arradd{margin-left: 10px;background: #fff url('../../image/bt_arradd.png') no-repeat center;}
+.bt_arradd2{background: #fff url('../../image/bt_arradd2.png') no-repeat center;}
+
+
+/* Datatable paging button *****************************************************************/
+.dataTables_wrapper .dataTables_info {
+    position: absolute;
+}
+
+.dataTables_wrapper .dataTables_filter {
+	padding-bottom:5px;
+}
+.dataTables_wrapper .dataTables_paginate {
+	float: inherit !important;
+	text-align: center !important;
+	padding-top: 0.25em !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+	padding: 0 1em;
+	line-height: 2.0;
+}
+.dataTables_wrapper .dataTables_paginate .paging_button_a {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#495f73; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a:hover{cursor: pointer;width: 30px;height: 30px;padding:0;margin-right:0;display:inline-block;text-align:center;line-height: 29px;color:#f47320;font-size:13px;font-weight:bold;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.current {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#f47320; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.current:hover {cursor: pointer;width: 30px;height: 30px;padding: 0;margin-right:0;display:inline-block;line-height: 29px;text-align:center;color:#f47320; font-size:13px;background: #fff;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.previous{margin-right: 10px;background: #fff url('../../image/bt_arrdel.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.next{margin-left: 10px;background: #fff url('../../image/bt_arradd.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.first{margin-right: 10px;background: #fff url('../../image/bt_arrdel2.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.last{margin-left: 10px;background: #fff url('../../image/bt_arradd2.png') no-repeat center;}
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled, 
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled:hover, 
+.dataTables_wrapper .dataTables_paginate .paging_button_a.disabled:active{
+	cursor: default;
+	color: #666 !important;
+	border: 1px solid transparent;
+	box-shadow: none
+}
+
+/* Popup *************************************************************************/
+.popupWrap{position:fixed;_position:absolute;top:0;left:0;width:100%;height: 100%;z-index: 100;}
+.dim{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);}
+.projactPopup{width:980px;height:800px;position:absolute;top:5%;left:50%;margin-left:-490px;background-color:#fff;z-index: 10;}
+.popupHead{height:45px;padding-left:28px;font-size:18px;line-height:45px;font-weight:600;color:#fff;background-color:#00498f;box-sizing:border-box;}
+.popupContns{padding:20px;box-sizing:border-box;}
+.popupClose{width:48px;height:45px;float:right;text-indent:-10000px;background: url('../../image/popupClose.png')no-repeat;}
+.popupBtn{display:block;text-align:center;}
+
+/* 인풋박스 */
+.borderT_nor{border-top:none !important;}
+.borderL_nor{border-left:none !important;}
+.borderR_nor{border-right:none !important;}
+.borderB_nor{border-bottom:none !important;}
+.input_Defult{height:27px;padding:5px 10px;border:1px solid #c9c9c9;box-sizing:border-box;}
+.input110{width:110px;}
+.input170{width:170px;}
+.input200{width:200px;}
+
+
+.checks {position: relative;}
+.checks input[type="checkbox"] { /* 실제 체크박스는 화면에서 숨김 */ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 } 
+.checks input[type="checkbox"] + label{width:22px;height:22px;overflow:hidden;margin-right:-10px;display: inline-block; position: relative; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+.checks label:before{ /* 가짜 체크박스 */ content: ' '; display: inline-block; width: 22px; /* 체크박스의 너비를 지정 */ height: 22px; /* 체크박스의 높이를 지정 */ line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */ margin: 0 0 0 0; text-align: center; vertical-align: middle; background: url('../../image/checkboxBg.png')no-repeat;} 
+.checks  + label:active:before, .checks input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); } 
+.checks input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '';background: url('../../image/checkboxBg_over.png')no-repeat;}
+
+.checksLst input[type="checkbox"] + label{width:27px;height:18px;margin-top:-2px;}
+.checksLst label:before{content: '';width: 15px;height: 15px;line-height: 14px;background: url('../../image/checkboxBg02.png')no-repeat;}
+.checksLst input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ content: '';background: url('../../image/checkboxBg02_over.png')no-repeat;}
+
+select.lstSelect, select.lstSelect02, select.lstSelect03, select.lstSelect04 {width: auto;padding: 4px 35px 4px 5px;font-size: 13px;color: #333;border: 1px solid #c9c9c9;-webkit-appearance: none;-moz-appearance: none;appearance: none;background: url('../../image/select-arrow01.png') no-repeat 90% 50%; /* 화살표 아이콘 추가 */}
+select.lstSelect::-ms-expand, select.lstSelect02::-ms-expand, select.lstSelect03::-ms-expand, select.lstSelect04::-ms-expand {display: none;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect02{width:488px;padding:10px 35px 10px 35px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow02.png') no-repeat 0 50%;}
+select.lstSelect02 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect02 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect02 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect03{width:290px;padding:5px 35px 5px 5px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow01.png') no-repeat 96% 50%;}
+select.lstSelect03 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect03 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect03 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+select.lstSelect04{width:170px;padding:4px 15px 4px 5px;float:left;border:1px solid #c9c9c9;color:#000;background:#fff url('../../image/select-arrow01.png') no-repeat 96% 50%;}
+select.lstSelect04 + select.lstSelect02{margin-left:7px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select.lstSelect04 option:checked, select option:hover {background: #e5ecf4;color: #000;}
+/* check, hover 스타일 설정 FireFox */
+select.lstSelect04 option:checked, select option:hover {box-shadow: 0 0 10px 100px #ff00ff inset;color: #000;}
+
+
+/* 테이블 설정 */
+.tableVerification{width:100%;border-top:2px solid #00498f;}
+.tableVerification thead th{padding:10px 10px!important;font-size:12px;border-bottom:1px solid #f7f9fc;border-right:1px solid #f7f9fc;background-color:#e5ecf4;}
+.tableVerification thead tr th:last-child{border-right:none;}
+.tableVerification tbody td{padding:10px 2px!important;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;font-size:13px;color:#000;box-sizing:border-box;}
+.tableVerification tbody tr td:last-child{border-right:none;}
+
+.tableVerificationBody{width:100%;border-top:2px solid #00498f;}
+.tableVerificationBody tbody th{padding:10px;font-size:14px;border-bottom:1px solid #f7f9fc;border-right:1px solid #f7f9fc;background-color:#e5ecf4;}
+.tableVerificationBody tbody tr th:last-child{border-right:none;}
+.tableVerificationBody tbody td{padding:2px;border-bottom:1px solid #b6b6b6;border-right:1px solid #d8d8d8;font-size:14px;color:#000;box-sizing:border-box;}
+.tableVerificationBody tbody th span{padding-left:3px;display:inline-block;font-weight:600;color:#f87b2f;}
+
+
+a.linkTxt{display:block;font-size:16px;font-weight:600;color:#000;}
+a.linkTxt:hover{color:#f47320;}
+td.txtLeft{text-align:left;}

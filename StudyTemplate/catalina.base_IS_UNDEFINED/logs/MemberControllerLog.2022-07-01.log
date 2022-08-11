@@ -1,0 +1,73 @@
+INFO  08:01:51 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:02:07 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:02:16 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:02:20 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:02:28 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  08:02:36 MemberControllerLog[insertMember:202] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+
+INFO  08:02:38 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  08:02:38 MemberControllerLog[getMemberListByJPA2:76] - Member List size - 3
+INFO  08:03:15 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  08:03:15 MemberControllerLog[getMemberListByJPA2:76] - Member List size - 3
+INFO  09:16:10 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  09:16:21 MemberControllerLog[insertMember:202] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+
+INFO  09:16:22 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  09:16:22 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 4
+INFO  09:17:05 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  09:17:05 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 4
+INFO  09:17:23 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  09:17:23 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 4
+INFO  11:38:12 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  11:38:17 MemberControllerLog[insertMember:202] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+
+INFO  11:38:18 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  11:38:19 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 5
+INFO  11:38:40 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  11:38:40 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 5
+INFO  13:34:35 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  13:35:28 MemberControllerLog[getMemberByUserId:39] - Select Member by User Id Parameter.
+INFO  13:35:31 MemberControllerLog[insertMember:202] -   INSERT INTO 	
+        member	
+        VALUES (?,?,?,?,?,?,?,?,?) 	
+
+INFO  13:35:35 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  13:35:35 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 4
+INFO  16:00:33 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  16:00:33 MemberControllerLog[getMemberListByJPA:53] - Member List size - 4
+INFO  16:00:34 MemberControllerLog[selectAllMemberList:56] -   SELECT  	
+        m.id, 	
+        m.auth, 	
+        m.department, 	
+        m.name, 	
+        m.position, 	
+        m.pw, 	
+        m.rank, 	
+        m.user_id, 	
+        m.ismaster 	
+    FROM member m	
+
+INFO  16:00:34 MemberControllerLog[getMemberListByJDBC:101] - Member List size - 4
+INFO  16:00:35 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  16:00:35 MemberControllerLog[getMemberListByJPA2:77] - Member List size - 4
+INFO  16:01:17 MemberControllerLog[selectAllMemberList:56] -   SELECT  	
+        m.id, 	
+        m.auth, 	
+        m.department, 	
+        m.name, 	
+        m.position, 	
+        m.pw, 	
+        m.rank, 	
+        m.user_id, 	
+        m.ismaster 	
+    FROM member m	
+
+INFO  16:01:17 MemberControllerLog[getMemberListByJDBC:101] - Member List size - 4
+INFO  16:01:17 MemberControllerLog[getMemberList:29] - Select Member List by JPA Way.
+INFO  16:01:17 MemberControllerLog[getMemberListByJPA:53] - Member List size - 4

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+input{
+	height:35px;
+	border:solid 1px #cccccc;
+}
+.red-warning{
+	border-color:#e61009;
+}
+.black-standard{
+	border-color:#cccccc;
+}

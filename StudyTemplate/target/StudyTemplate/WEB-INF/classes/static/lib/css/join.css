@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "common.css";
+
+.input-area{
+	margin:2%;
+}
+.subtitle-area{
+	font-family: SpoqaHanSans;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	font-stretch: normal;
+	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color:#666666;
+}
+.label-area{
+	margin-top:1%;
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: normal;
+	color: #969696;
+}
+.alert-area{
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #e61009;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+.submit-btn{
+	width:100%;
+	height:56px;
+	border:0px;
+	margin-top:5%;
+	font-family: SpoqaHanSans;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	background-color: #0081ea;
+}
+.line{
+	background-color:#dddddd;
+	width:100%;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+.info{
+  width: 14px;
+  height: 14px;
+  font-size:13px;
+  display:inline-block;
+  margin-right:4px;
+  text-align:center;
+  color: #e61009;
+  border:solid 1px #e61009;
+  border-radius:100%;
+}
+

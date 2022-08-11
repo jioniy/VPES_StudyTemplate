@@ -1,0 +1,107 @@
+/*table 배경색*/
+.tableDefault thead th, .tableDefaultBody tbody th {
+	background-color: #a8a8a8 !important;
+	color: #e8e8e8 !important; 
+	border-bottom-color : #f5f5f5 !important;
+	border-right-color: #f5f5f5 !important;
+}
+
+.btn-primary, .btnProject, .btn_checks, .btn_reportAdd, .btn_blue {
+	background-color: #898989 !important;
+	border-color: #969696 !important;
+}
+
+.btn-primary:hover, .btnProject:hover, .btn_checks:hover, .btn_reportAdd:HOVER, btn_blue:HOVER {
+	opacity : .70 !important;
+	background-color: #646464 !important;
+	color: #ffffff !important;
+}
+.tabMenu li a{
+	color : #737373;
+	border-top:1px solid #c4c5c6;
+	border-right:1px solid #c4c5c6;
+	border-bottom:1px solid #737373;
+}
+.tabMenu li a.select{
+	border:1px solid #737373;
+	border-bottom:1px solid #a9a9a9;
+	color:#f2f2f2;
+	background-color:#a9a9a9;
+}
+.tabMenu li a:hover{
+	border:1px solid #737373;
+	border-bottom:1px solid #a9a9a9;
+	color:#f2f2f2;
+	background-color:#a9a9a9;
+}
+/* .tabMenu li a {
+	border: 1px solid #c4c5c6 !important;
+	background-color: #ffffff !important;
+	border-top-color: #737373 !important;
+	border-right-color: #737373  !important;
+	border-bottom-color: #737373 !important;
+}
+
+.tabMenu li a:hover {
+	opacity : .65 !important;
+	color : #f2f2f2 !important;
+	background-color: #a9a9a9 !important;
+	border-color: #737373 !important;
+	border-bottom-color: #a9a9a9 !important;
+}
+
+.tabMenu li a.select {
+	color: #f2f2f2 !important;
+	border: 1px solid #737373 !important;
+	border-right-color: #737373 !important;
+	border-bottom-color: #737373 !important; 
+	background-color: #a9a9a9 !important;
+}
+ */
+/* 테이블 최상단 색상  */
+table.dataTable.no-footer, .settingArea ul, .loginChange, .tableDefault, .tableDefaultBody, .product_Area d1 dd ul {
+	border-top-color: #7d7d7d;
+}
+
+.product_Area dl dd ul {
+	border-top-color: #7d7d7d; 
+}
+
+.product_Area dl + dl dd ul {
+	border-top-color: #ffffff !important;
+}
+
+.popupHead {
+	background-color: #a8a8a8 !important;
+}
+
+.product_Area dl + dl dt {
+    background-color: #0072bc;
+}
+
+.product_Area dl dt {
+    background-color: #00498f;
+}
+
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #ffffff;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}

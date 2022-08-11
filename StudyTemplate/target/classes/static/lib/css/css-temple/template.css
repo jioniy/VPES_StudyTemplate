@@ -1,0 +1,93 @@
+/*table 배경색*/
+.tableDefault thead th, .tableDefaultBody tbody th {
+	background-color: #e5ecf4 !important;
+	color: #333 !important; 
+	border-bottom-color : #f7f9fc !important;
+	border-right-color: #f7f9fc !important;
+}
+
+/*
+.tableDefaultBody tbody {
+	border-top: 2px solid #00498f !important;
+}
+*/
+
+.btn-primary, .btnProject, .btn_checks, .btn_reportAdd, .btn_blue {
+	background-color: #337ab7 !important;
+	border-color: #2e6da4 !important;
+}
+
+.btn-primary:hover, .btnProject:hover, .btn_checks:hover, .btn_reportAdd:HOVER, btn_blue:HOVER {
+	opacity : .65 !important;
+	background-color: #fa6607 !important;
+}
+
+
+/* .tabMenu li a {
+	border: 1px solid #c4c5c6 !important;
+	border-bottom-color: #00498f !important;
+	background-color: #ffffff !important;
+}
+
+.tabMenu li a:hover {
+	opacity : .65 !important;
+	background-color: #e5ecf4 !important;
+	border: 1px solid #00498f !important;
+	border-bottom-color: #e5ecf4 !important;
+}
+
+.tabMenu li a.select {
+	color: #00498f;
+	border:	1px solid #00498f !important;
+	border-bottom-color: #e5ecf4 !important; 
+	background-color: #e5ecf4 !important;
+} */
+
+
+/* 테이블 최상단 색상  */
+table.dataTable.no-footer, .settingArea ul, .loginChange, .tableDefault, .tableDefaultBody, .product_Area d1 dd ul {
+	border-top-color: #6c91bb;
+}
+
+.product_Area dl dd ul {
+	border-top-color: #6c91bb; 
+}
+
+.product_Area dl + div + dl dd ul {
+	border-top-color: #ffffff !important;
+}
+
+.product_Area dl + div + dl dt {
+    /* background-color: #0072bc; */
+}
+
+.product_Area dl dt {
+    background-color: #00498f;
+}
+
+.popupHead {
+	background-color: #00498f !important;
+}
+
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #ffffff;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}

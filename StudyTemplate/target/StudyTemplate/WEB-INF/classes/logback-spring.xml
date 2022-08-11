@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- 콘솔 로깅 -->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>
+				%-5level %d{HH:mm:ss.SSS} [%thread] %logger[%method:%line] - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 로거 호출자에 따른 로깅 형식 정의 -->
+	<appender name="file" class="ch.qos.logback.core.FileAppender">
+		<file>${catalina.base}/logs/total/TotalLog.log</file>		
+		<encoder>
+			<pattern>%-5level %d{HH:mm:ss} %logger[%method:%line] - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="fileForViewControllerLogLogInterceptor" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${catalina.base}/logs/ViewControllerLog.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.base}/logs/ViewControllerLog.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%-5level %d{HH:mm:ss} %logger[%method:%line] - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="fileForMemberControllerLogLogInterceptor" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${catalina.base}/logs/MemberControllerLog.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.base}/logs/MemberControllerLog.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%-5level %d{HH:mm:ss} %logger[%method:%line] - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 로거 호출자 정의 -->
+	<logger name="ViewControllerLog" level="debug">
+		<appender-ref ref="fileForViewControllerLogLogInterceptor"></appender-ref>
+	</logger>
+	
+	<logger name="MemberControllerLog" level="debug">
+		<appender-ref ref="fileForMemberControllerLogLogInterceptor"></appender-ref>
+	</logger>  
+
+	<!-- 로깅 등급에 따른 설정 -->
+	<root level="error" >
+		<appender-ref ref="console"></appender-ref>
+		<appender-ref ref="file"></appender-ref>
+	</root>
+</configuration>
